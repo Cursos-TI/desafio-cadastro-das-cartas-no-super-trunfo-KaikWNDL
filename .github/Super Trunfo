@@ -1,0 +1,77 @@
+#include <stdio.h> 
+
+int main(){
+    char estadoCarta1[8], estadoCarta2[8];
+    char codigoCarta1[4], codigoCarta2[4] ;
+    char nomeCarta1[50], nomeCarta2[50];
+    int populacaoCarta1, populacaoCarta2;
+    float areaCarta1, areaCarta2;
+    float pibCarta1, pibCarta2;
+    int pontosCarta1, pontosCarta2;
+
+    printf("CARTA 1: \n");
+    printf("Digite o estado da sua cidade: \n");
+    scanf("%s", &estadoCarta1);
+
+    printf("Código da cidade: \n");
+    scanf("%s", &codigoCarta1);
+
+    printf("Nome da cidade: \n");
+    scanf("%s", &nomeCarta1);
+
+    printf("População da cidade: \n");
+    scanf("%d", &populacaoCarta1);
+
+    printf("Área em Km2 da cidade: \n");
+    scanf("%f", &areaCarta1);
+
+    printf("Produto Interno Bruto (PIB) da cidade: \n");
+    scanf("%f", &pibCarta1);
+
+    printf("Número de pontos turísticos da cidade: \n");
+    scanf("%d", &pontosCarta1);
+
+    // printf("CARTA 2: \n");
+    //printf("Digite o estado da sua cidade: \n");
+    //scanf("%s", &estadoCarta2);
+
+    //printf("Código da cidade: \n");
+    //scanf("%s", &codigoCarta2);
+
+    //printf("Nome da cidade: \n");
+    //scanf("%s", &nomeCarta2);
+
+    //printf("População da cidade: \n");
+    //scanf("%d", &populacaoCarta2);
+
+    //printf("Área em Km2 da cidade: \n");
+    //scanf("%f", &areaCarta2);
+
+    //printf("Produto Interno Bruto (PIB) da cidade: \n");
+    //scanf("%f", &pibCarta2);
+
+    //printf("Número de pontos turísticos da cidade: \n");
+    //scanf("%d", &pontosCarta2);
+
+    printf("CARTA 1\n");
+    printf("Estado: %s \n", estadoCarta1);
+    printf("Código: %s \n", codigoCarta1);
+    printf("Nome da Cidade: %s \n", nomeCarta1);
+    printf("População: %d \n", populacaoCarta1);
+    printf("Área: %.2f \n", areaCarta1);
+    printf("PIB: %.2f \n", pibCarta1);
+    printf("Números de Pontos Turísticos: %d \n\n", pontosCarta1);
+
+    //printf("CARTA 2\n");
+    //printf("Estado: %s \n", estadoCarta2);
+   // printf("Código: %s \n", codigoCarta2);
+   // printf("Nome da Cidade: %s \n", nomeCarta2);
+    //printf("População: %d \n", populacaoCarta1);
+   // printf("Área: %.2f \n", areaCarta2);
+   // printf("PIB: %.2f \n", pibCarta2);
+   // printf("Números de Pontos Turísticos: %d \n", pontosCarta2);
+
+    return 0;
+
+
+    }
