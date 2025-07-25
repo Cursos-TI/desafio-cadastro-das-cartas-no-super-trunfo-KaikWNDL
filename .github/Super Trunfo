@@ -31,12 +31,12 @@ int main(){
     printf("Número de pontos turísticos da cidade: \n");
     scanf("%d", &pontosCarta1);
 
-    // printf("CARTA 2: \n");
-    //printf("Digite o estado da sua cidade: \n");
-    //scanf("%s", &estadoCarta2);
+    printf("CARTA 2: \n");
+    printf("Digite o estado da sua cidade: \n");
+    scanf("%s", &estadoCarta2);
 
-    //printf("Código da cidade: \n");
-    //scanf("%s", &codigoCarta2);
+    printf("Código da cidade: \n");
+    scanf("%s", &codigoCarta2);
 
     printf("Nome da cidade: \n");
     scanf("%s[^\n]", nomeCarta2);
